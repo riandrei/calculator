@@ -91,3 +91,32 @@ img {
 .yellow {
   background-color: var(--button-third-color);
 }
+
+.history {
+  background-color: #424b55;
+  border-radius: 2rem;
+  position: absolute;
+  width: 90vw;
+  height: 80vh;
+}
+.history h2 {
+  color: var(--text-color);
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+.history div {
+  border-top: 0.3rem solid rgb(50, 49, 49);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: 600;
+  height: 11.65vh;
+  padding: 0 15vw;
+}
+.history div p:first-child {
+  font-weight: 500;
+}
