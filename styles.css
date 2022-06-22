@@ -49,7 +49,45 @@ body {
   font-size: 5.5rem;
 }
 
+.buttons {
+  width: 80vw;
+}
+.utility-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.utility-buttons button {
+  all: unset;
+}
 img {
-  width: 1rem;
-  height: 1rem;
+  width: 4rem;
+  height: 4rem;
+}
+.utility-buttons button:last-child img {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+.operation-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+.operation-buttons button {
+  color: var(--text-color);
+  font-size: 3.2rem;
+  font-weight: 1000;
+  border: none;
+  border-radius: 1.2rem;
+  height: 6.675rem;
+}
+.pink {
+  background-color: var(--button-second-color);
+}
+.teal {
+  background-color: var(--button-first-color);
+}
+.yellow {
+  background-color: var(--button-third-color);
 }
