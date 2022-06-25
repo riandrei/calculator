@@ -31,9 +31,9 @@ body {
   align-items: flex-end;
   justify-content: center;
   box-shadow: 0px 3px 15px 5px #111111;
-  border-radius: 3rem;
+  border-radius: 2rem;
   width: 80vw;
-  height: 15rem;
+  height: 9rem;
   padding: 1rem 2.5rem;
 }
 
@@ -43,10 +43,10 @@ body {
   font-weight: 500;
 }
 .display p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .display h1 {
-  font-size: 5.5rem;
+  font-size: 3rem;
 }
 
 .buttons {
@@ -56,7 +56,8 @@ body {
   display: flex;
   justify-content: flex-end;
   gap: 1.5rem;
-  margin-bottom: 2rem;
+  margin-top: 1vh;
+  margin-bottom: 1.5vh;
 }
 .utility-buttons button {
   all: unset;
@@ -66,8 +67,8 @@ img {
   height: 4rem;
 }
 .utility-buttons button:last-child img {
-  width: 6.5rem;
-  height: 6.5rem;
+  width: 7.5rem;
+  height: 7.5rem;
 }
 .operation-buttons {
   display: grid;
@@ -76,11 +77,11 @@ img {
 }
 .operation-buttons button {
   color: var(--text-color);
-  font-size: 3.2rem;
+  font-size: 2rem;
   font-weight: 1000;
   border: none;
   border-radius: 1.2rem;
-  height: 6.675rem;
+  height: 5rem;
 }
 .pink {
   background-color: var(--button-second-color);
@@ -93,6 +94,7 @@ img {
 }
 
 .history {
+  display: none;
   background-color: #424b55;
   border-radius: 2rem;
   position: absolute;
